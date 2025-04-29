@@ -1,0 +1,55 @@
+// main: ../main.scss
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about {
+  padding-top: 60px;
+  background-color: #ffffff;
+  padding-bottom: 60px;
+
+  .content {
+    h2 {
+      font-weight: 700;
+      font-size: 28px;
+      color: #0d1b2a;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        color: #212529;
+
+        i {
+          font-size: 18px;
+          margin-right: 8px;
+          color: #0d6efd; // Bootstrap blue
+          line-height: 0;
+        }
+
+        strong {
+          margin-right: 10px;
+          color: #212529;
+        }
+      }
+    }
+
+    p {
+      color: #495057;
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+  }
+
+  img.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+}
